@@ -1,0 +1,8 @@
+{
+  "name": "Shree Stationers - Anekal",
+  "description": "Quality school supplies, notebooks, pens, art materials, and office stationery at Shree Stationers in Anekal, Karnataka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

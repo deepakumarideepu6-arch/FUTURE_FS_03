@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FAF8F5;
+    --color-ivory-warm: #F3EDE3;
+    --color-forest: #183B2B;
+    --color-forest-dark: #10261C;
+    --color-forest-light: #244C39;
+    --color-mustard: #D99B26;
+    --color-mustard-hover: #C58818;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F5;
+    color: #262422;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom smooth transitions */
+.transition-smooth {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
